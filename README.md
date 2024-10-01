@@ -30,8 +30,12 @@ Los datos están etiquetados con una variable de clase llamada "NObesity" que cl
 - NObeyesdad: Categórico, "Nivel de obesidad"
 
 ¿Qué contiene los datos?
-![image](https://github.com/user-attachments/assets/e0956931-d104-49f4-9d99-33af37c90eb8)
+este repositorio contiene los siguientes archivos
 
+1) ObesityDataSet_raw_and_data_sinthetic: base de datos
+2) Proyecto_V2: Analisis exploratorio del dataset
+3) SQL_GALLEGO_CEPEDA: Creacion de base de datos y tablas en SQL
+4) app: despliegue de la informacion relevante del dataset de manera grafica (localhost)
 
 
 Valor Generado
