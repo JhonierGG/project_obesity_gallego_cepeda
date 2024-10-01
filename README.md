@@ -33,9 +33,23 @@ Los datos están etiquetados con una variable de clase llamada "NObesity" que cl
 este repositorio contiene los siguientes archivos
 
 1) ObesityDataSet_raw_and_data_sinthetic: base de datos
+![image](https://github.com/user-attachments/assets/e17c8a1f-f1c7-44c1-879d-ae397657a7d2)
+
+
 2) Proyecto_V2: Analisis exploratorio del dataset
-3) SQL_GALLEGO_CEPEDA: Creacion de base de datos y tablas en SQL
-4) app: despliegue de la informacion relevante del dataset de manera grafica (localhost)
+![image](https://github.com/user-attachments/assets/587ab723-595e-43f6-bf36-97dc95ede409)
+
+![image](https://github.com/user-attachments/assets/1af96f86-d423-4b5a-b5f4-449ad950dc4b)
+
+
+
+
+4) SQL_GALLEGO_CEPEDA: Creacion de base de datos y tablas en SQL
+![image](https://github.com/user-attachments/assets/84dff027-08c7-4cd2-a1a1-2cd1df7a58ba)
+![image](https://github.com/user-attachments/assets/59458ecd-1ee0-4452-8a0a-96e54ada754e)
+
+
+6) app: despliegue de la informacion relevante del dataset de manera grafica (localhost)
 
 
 Valor Generado
