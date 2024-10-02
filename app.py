@@ -16,7 +16,7 @@ engine = create_engine(connection_string)
 
 # Función para cargar datos
 def load_data():
-    return pd.read_sql('SELECT * FROM `health_data`', con=engine)
+    return pd.read_sql('SELECT * FROM health_data', con=engine)
 
 # Título de la aplicación
 st.title('Análisis de Datos del health_data')
@@ -45,16 +45,44 @@ def draw_charts(df):
                              title='Nivel de obesidad por Género')
         st.plotly_chart(fig2)
 
-        # Gráfico de nivel de obesidad en funcion del consumo de alcohol
-        st.subheader('Nivel de obesidad en funcion de consumo de alcohol')
+        # Gráfico de nivel de obesidad en función del consumo de alcohol
+        st.subheader('Nivel de obesidad en función de consumo de alcohol')
         fig3 = px.histogram(df, x='CALC', color='NObeyesdad', barmode='group',
-                             title='Nivel de obesidad en funcion de consumo de alcohol')
+                             title='Nivel de obesidad en función de consumo de alcohol')
         st.plotly_chart(fig3)
 
-        # Gráfico de nivel de obesidad en funcion de actividad fisica
-        st.subheader('nivel de obesidad en funcion de actividad fisica')
-        fig4 = px.box(df, x='NObeyesdad', y='FAF', title='nivel de obesidad en funcion de actividad fisica')
+        # Gráfico de nivel de obesidad en función de actividad física
+        st.subheader('Nivel de obesidad en función de actividad física')
+        fig4 = px.box(df, x='NObeyesdad', y='FAF', title='Nivel de obesidad en función de actividad física')
         st.plotly_chart(fig4)
+        
+        # Gráfico de nivel de obesidad en función del Peso
+        st.subheader('Nivel de obesidad en función del Peso')
+        fig5 = px.box(df, x='NObeyesdad', y='Weight', title='Nivel de obesidad en función del Peso')
+        st.plotly_chart(fig5)
+
+        # Gráfico de nivel de obesidad en función del número de comidas principales
+        st.subheader('Nivel de obesidad en función del número de comidas principales')
+        fig6 = px.box(df, x='NObeyesdad', y='NCP', title='Nivel de obesidad en función del número de comidas principales')
+        st.plotly_chart(fig6)
+
+        # Gráfico de nivel de obesidad en función del consumo de verduras
+        st.subheader('Nivel de obesidad en función del consumo de verduras')
+        fig7 = px.box(df, x='NObeyesdad', y='FCVC', title='Nivel de obesidad en función del consumo de verduras')
+        st.plotly_chart(fig7)
+
+        # Gráfico de nivel de obesidad en función del medio de transporte 
+        st.subheader('Nivel de obesidad en función del medio de transporte')
+        fig8 = px.histogram(df, x='NObeyesdad', color='MTRANS', barmode='group',
+                             title='Nivel de obesidad en función del medio de transporte')
+        st.plotly_chart(fig8)
+
+        # Gráfico de nivel de obesidad en función del histórico familiar con sobrepeso
+        st.subheader('Nivel de obesidad en función del histórico familiar con sobrepeso')
+        fig9 = px.histogram(df, x='family_history_with_overweight', color='NObeyesdad', barmode='group',
+                             title='Nivel de obesidad en función del histórico familiar con sobrepeso')
+        st.plotly_chart(fig9)
+
 
 # Función para mostrar la tabla
 def show_table(df):
@@ -76,3 +104,9 @@ while True:
     show_table(df)  # Mostrar la tabla actualizada
     draw_charts(df)  # Dibujar gráficos actualizados
     time.sleep(10)  # Esperar 10 segundos antes de actualizar
+
+
+
+
+
+
