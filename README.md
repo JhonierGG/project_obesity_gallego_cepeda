@@ -47,30 +47,40 @@ este repositorio contiene los siguientes archivos
 3) SQL_GALLEGO_CEPEDA: Creacion de base de datos y tablas en SQL
 inicialmente se ejecuta codigo para añadir un nuevo usuario, inicialmente hay 2111 y se adiciona el usuario 2112
 ![image](https://github.com/user-attachments/assets/501c7403-4512-48c8-9c48-cd378a3d7753)
+
 codigo para crear nuevo usuario
 
 ![image](https://github.com/user-attachments/assets/037f0345-a13d-4082-bd7a-c796be61d17e)
+
 vista SQL conla creacion del nuevo usuario
 
 posteriormente se realiza una funcion para crear multiples usuarios, en este paso se adicionan 3 nuevos usuarios
+
 ![image](https://github.com/user-attachments/assets/0442e832-0534-486d-882b-2f9dfd05e1d2)
 codigo para crear los multiples usuarios
 
 ![image](https://github.com/user-attachments/assets/175abe6c-6589-4114-94f5-76d46eef07c0)
+
 vista SQL con la creacion de multiples usuarios
 
 una vez se crean los multiples usuarios, se realiza la modificacion de uno de los registros creados, en este caso se modifica la edad del ultimo usuario registrado, pasando de 18 a 35 años
+
 ![image](https://github.com/user-attachments/assets/83ca79ec-186c-4a43-931c-0a23c57e9724)
+
 codigo para cmodificar registro
 
 ![image](https://github.com/user-attachments/assets/463e301b-e550-44b9-b6a6-c985c0b3d70f)
+
 vista SQL con la modificacion
 
 finalmente se realiza eliminacion de un registro, en este caso se elimina el usuario 2114
+
 ![image](https://github.com/user-attachments/assets/018aa511-11a2-46f7-b3a0-603113b4b405)
+
 codigo para eliminar registro
 
 ![image](https://github.com/user-attachments/assets/b98d381b-6c17-45c3-ab90-08b9ec1bb0a7)
+
 vista SQL sin el usuario 2114
 
 
