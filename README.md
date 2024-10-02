@@ -87,6 +87,8 @@ vista SQL sin el usuario 2114
 
 4) app: despliegue de la informacion relevante del dataset de manera grafica (localhost)
 
+![image](https://github.com/user-attachments/assets/548c7a11-a648-44d3-8bf7-25c0e98ea587)
+
 
 Valor Generado
 
