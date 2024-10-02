@@ -57,6 +57,7 @@ vista SQL conla creacion del nuevo usuario
 posteriormente se realiza una funcion para crear multiples usuarios, en este paso se adicionan 3 nuevos usuarios
 
 ![image](https://github.com/user-attachments/assets/0442e832-0534-486d-882b-2f9dfd05e1d2)
+
 codigo para crear los multiples usuarios
 
 ![image](https://github.com/user-attachments/assets/175abe6c-6589-4114-94f5-76d46eef07c0)
